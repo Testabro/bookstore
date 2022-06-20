@@ -1,0 +1,151 @@
+#category_page {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#category_left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #dddfd4;
+    padding-bottom: 25%;
+    width: 25%;
+    min-width: 300px;
+    padding-right: 16px;
+}
+
+.unselected_category {
+    background-color: #173e43;
+    color: white;
+}
+
+.unselected_category:hover {
+    background-color: #3fb0ac;
+    cursor: pointer;
+}
+
+#selected_category{
+    background-color: white;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #111111;
+}
+
+#selected_category a {
+    color: white;
+}
+
+#selected_category::after {
+    display: block;
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#category_navigation_pane {
+    padding-right: 8px;
+    text-align: right;
+}
+
+#category_navigation_pane_title {
+    text-align: right;
+}
+
+#category_navigation_options li {
+    padding: 10px;
+    margin: 0 0 8px 0;
+    width: 250px;
+}
+
+#category_right {
+    display: flex;
+    flex-direction: row;
+    background-color: #f9f9f9;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: center;
+    align-content: flex-start;
+
+}
+
+.read_button {
+    background-color: white;
+    padding: 3px;
+    position: absolute;
+    z-index: 1;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-left: 70px;
+    margin-top: -10px;
+    height: 35px;
+}
+
+.read_button:hover{
+    background-color: #3fb0ac;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.addToCartButton {
+    background-color: #fae596;
+    border: 0;
+    padding: 3px;
+    width: 115px;
+    font-size: 12pt;
+    height: 35px;
+    margin-top: 3px;
+}
+
+.addToCartButton:hover {
+    background-color: #f78888;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.book {
+    display: flex;
+    flex-direction: row;
+    padding: 18px;
+    background-color: rgba(243,210,80,.1);
+    border-radius: 10%;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.book_title_group {
+    display: flex;
+    flex-direction: column;
+    width: 115px;
+    justify-content: space-between;
+    margin-left: 8px;
+}
+
+#book_title_group_name {
+    word-wrap: normal;
+    margin-bottom: 10px;
+}
+
+.book_img_holder {
+    justify-content: right;
+
+}
+
+.book_img {
+    height: 180px;
+    width: 125px;
+    margin-right: 8px;
+    border: 1px solid rgba(1, 1, 1, .1);
+    border-radius: 4%;
+    position:relative;
+}
+
+.book_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}

@@ -1,0 +1,89 @@
+body {
+    font: 1em normal Verdana, Arial, sans-serif;
+    color: #111111;
+    font-size: 20px;
+    font-family: Verdana, Arial, sans-serif;
+
+    /*centers the page and puts some padding around it */
+    margin: 0px auto;
+    padding: 16px;
+    max-width: 1400px;
+    max-height: 1400px;
+    min-width: 400px;
+}
+
+main {
+    background: white;
+    /* stack header-section-footer on all pages */
+    display: flex;
+    flex-direction: column;
+}
+
+a,
+a:visited {
+    color: white;
+    font-weight: bold;
+}
+
+a:hover,
+a:active,
+ul.buttons a:hover{
+    color: #f78888;
+}
+
+button::after {
+    display: block;
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+input[type=submit]{
+    color: #111111;
+}
+
+input[type=submit]:hover{
+    background-color: #f78888;
+    cursor: pointer;
+}
+
+p {
+    color: #111111;
+    font-size: 16pt;
+}
+
+h1 {
+    color: #ba5d1d;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+h2{
+    color: #ba5d1d;
+    font-size: 48px;
+    font-weight: bold;
+}
+h3 {
+    color: #111111;
+    font-size: 24px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 12px;
+}
+
+h6 {
+    font-size: 22px;
+    color: white;
+}
+
+hr {
+    color: #111111;
+}
+

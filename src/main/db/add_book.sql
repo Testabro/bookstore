@@ -1,0 +1,1 @@
+INSERT INTO `book` (title, author, price, is_public, category_id) VALUES ('Forest Under My Fingernails', 'Walt McLaughlin', 3099, FALSE, 1004);

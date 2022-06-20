@@ -1,0 +1,166 @@
+
+header {
+    background-image: url("../images/site/mountainrange.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1400px;
+    min-width: 1030px;
+    padding: 8px;
+}
+
+
+#header_left{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    background: #dddfd4;
+}
+
+#header_center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+#header_logo_img {
+    width: 115px;
+    height: 115px;
+}
+
+#header_logo_text_img {
+    width: 220px;
+    height: 125px;
+}
+
+#header_right {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(221,223,212,.7);
+    justify-content: center;
+}
+
+#header_login_and_cart_group {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    height: 40px;
+    align-self: flex-end;
+}
+
+
+#header_login {
+    text-align: right;
+    background: #fae596;
+    padding: 8px;
+    width: 120px;
+    color: #111111;
+}
+
+#header_login:hover{
+    color: white;
+    background-color: #f78888;
+}
+
+#header_login_and_cart_banner_img {
+    width: 257px;
+    height: 40px;
+}
+#header_cart_count_and_cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+    border-radius: 10%;
+    height: 40px;
+    width: 55px;
+    margin-left: 8px;
+}
+
+#header_cart_count_and_cart:hover {
+    cursor: pointer;
+    background-color: #3fb0ac;
+
+}
+
+#cartCount {
+    color: #111111;
+    font-weight: bold;
+}
+
+#header_cart_icon_img {
+    width: 25px;
+    height: 30px;
+}
+
+#header_navigation_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-right: 27px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#header_search_input {
+    height: 40px;
+    border: 0px;
+    padding-left: 8px;
+}
+
+#header_search_icon_img {
+    width: 40px;
+    height: 40px;
+    padding-left: 5px;
+}
+
+/* Dropdown Button */
+#header_dropbtn {
+    background-color: #173e43;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+}
+#header_dropbtn_icon_img {
+    width: 25px;
+    height: 25px;
+    padding: 0px 2px 0px 0px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+#header_dropdown {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    z-index: 2;
+}
+
+/* Dropdown Content (Hidden by Default) */
+#header_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #173e43;
+    width: 300px;
+}
+
+/* Links inside the dropdown */
+#header_dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Change color of dropdown links on hover */
+#header_dropdown-content a:hover {background-color: #3fb0ac; font-weight: bold}
+
+/* Show the dropdown menu on hover */
+#header_dropdown:hover #header_dropdown-content {display: block; background-color: #173e43}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+#header_dropdown:hover #header_dropbtn {background-color: #f78888;}
+
